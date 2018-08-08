@@ -10,5 +10,4 @@ RUN mkdir /var/run/apache
 ADD index.html /var/www/html/index.html
 EXPOSE 80
 ENTRYPOINT ["/usr/sbin/apache2"]
-CMD["-DFOREGROUND"]
-
+CMD ["-D", "FOREGROUND"]
