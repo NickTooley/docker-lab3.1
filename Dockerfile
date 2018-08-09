@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Nick Tooley "nickjtooley@gmail.com"
+MAINTAINER Nicholas Tooley "nickjtooley@gmail.com"
 RUN apt-get -q update && apt-get -yq dist-upgrade
 RUN apt-get -yq install apache2
 ENV APACHE_RUN_USER www-data
